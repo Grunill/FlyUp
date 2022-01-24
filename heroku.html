@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FlyUp - Video</title>
+  <title>FlyUp - About</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -42,53 +42,34 @@
     </nav>
 </header>
 
-<div class="container"> 
-    <style>
-      .btn {
-          margin-bottom: 5px;
-      }
-    </style>
-    <div class="well">    
+<div class="container">
+  <main role="main" class="pb-3">
+      <!-- @RenderBody() -->
       <div class="container">
-        <button onclick="myFunction('All')" type="button" class="btn btn-dark btn-sm">All</button>
-        <button onclick="myFunction('Kitesurf')" type="button" class="btn btn-dark btn-sm">Kitesurf</button>
-        <button onclick="myFunction('Landboard')" type="button" class="btn btn-dark btn-sm">Landboarding</button>
-        <button onclick="myFunction('Paraglide')" type="button" class="btn btn-dark btn-sm">Paraglide</button>
-        <button onclick="myFunction('Paramotor')" type="button" class="btn btn-dark btn-sm">Paramotor</button>
-        <button onclick="myFunction('Plane')" type="button" class="btn btn-dark btn-sm">Plane</button>
-        <button onclick="myFunction('Sailing')" type="button" class="btn btn-dark btn-sm">Sailing</button>
-        <button onclick="myFunction('Skydive')" type="button" class="btn btn-dark btn-sm">Skydive</button>
-        <button onclick="myFunction('Snowboard')" type="button" class="btn btn-dark btn-sm">Snowboard</button>
-        <button onclick="myFunction('Wakeboard')" type="button" class="btn btn-dark btn-sm">Wakeboard</button>
-        <button onclick="myFunction('Wingfoil')" type="button" class="btn btn-dark btn-sm">Wingfoil</button>        
-        <button onclick="myFunction('Windsurf')" type="button" class="btn btn-dark btn-sm">Windsurf</button>        
-        <div id="videos" class="row">
-          <!--Populated by getVideosHTML-->
+        <div class="jumbotron">
+            <h1>flyup.uk</h1>
+            <br />
+            <p>
+                Click button below to test Node.js on Heroku.
+            </p>
+            <button type="button" class="btn btn-dark btn-sm">
+              <a class="nav-link text-light" href="https://grunill.herokuapp.com" target="_blank">Grunill</a>
+            </button>
         </div>
-      </div>
+        <p>Web Master: Jason Grunill</p>
+        <!-- <p>&copy; @DateTime.Now.Year - flyup.uk</p> -->
+        <p>&copy; flyup.uk</p>
     </div>
-
-    <br />
+  </main>
 </div>
 
 <footer class="border-top footer text-muted">
   <p id="myCopyright">flyup.uk</p>
 </footer>
 
-<script src="video.js"></script>
 <script>
-  let videosHTML_Start = getVideosHTML("All");
-  document.getElementById("videos").innerHTML = videosHTML_Start;
-
-  function myFunction(myFilter = "All"){
-    let videosHTML = "";
-    videosHTML = getVideosHTML(myFilter);
-    document.getElementById("videos").innerHTML = videosHTML;
-  }
-
   const d = new Date();
   document.getElementById("myCopyright").innerHTML = "&copy; " + d.getFullYear() + " - flyup.uk (Jason Grunill)";
 </script>
-
 </body>
 </html>
