@@ -21,7 +21,7 @@ const videos = [
   {id:18,title:"Treak Cliff",url:"CzPn4VFYPcQ",image:"Treak-Cliff.jpg",activity:"Paraglide",order:18,year:2015,description:"01-05-2015 - Birthday flight thermals to 3000ft and 06-02-2015 Snow flight. (Camera and Edit Jason Grunill)"},
   {id:19,title:"Betton Pool",url:"nGq_pVExarg",image:"Betton-Pool.jpg",activity:"Wakeboard",order:19,year:2018,description:"18-11-2018 - Wakeboard session"},
   {id:20,title:"Raley",url:"7U0MNCZSXqw",image:"Raley.jpg",activity:"Wakeboard",order:20,year:2011,description:"27-03-2011 - Wakeboard session at Blackpool Wake Park"},
-  {id:21,title:"Blackpool",url:"wxrsrKFM6nU",image:"Blackpool.jpg",activity:"Paramotor",order:21,year:2018,description:"13-09-2018 - Kitesurf session. (Camera and Edit Jason Grunill)"},
+  {id:21,title:"Blackpool",url:"wxrsrKFM6nU",image:"Blackpool.jpg",activity:"Kitesurf",order:21,year:2018,description:"13-09-2018 - Kitesurf session. (Camera and Edit Jason Grunill)"},
   {id:22,title:"La Mata",url:"MhutHIObN3c",image:"La-Mata.jpg",activity:"Kitesurf",order:22,year:2019,description:"12-06-2019 - Kitesurf session. (Camera Rebecca, Edit Jason Grunill)"},
   {id:23,title:"Snow In June",url:"pVg-LlASjJU",image:"Snow-In-June.jpg",activity:"Snowboard",order:23,year:2018,description:"June-2018 - JG Snowboarding and JE Skiing at Chill Factor"},
   {id:24,title:"Piper Archer",url:"uyFLhvaAOlw",image:"Piper-Archer.jpg",activity:"Plane",order:24,year:2018,description:"July-2018 - JD takes JG and KM on a flight over Snowdon. KM takes over controls on flight out, JG takes over controls on flight home. (Camera and Edit Jason Grunill)"},
