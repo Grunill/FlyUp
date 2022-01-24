@@ -56,7 +56,7 @@ function formatVideosHTML(value) {
     <h6>${value.title}</h6>
     <h6 style="font-size:0.5em">${value.activity} (${value.year})</h6>
     <a href="https://youtu.be/${value.url}" target="_blank">
-      <img src="/images/${value.image}" class="img-fluid" style="border: 5px solid orange;" />
+      <img src="/images/${value.image}" class="img-fluid" style="border: 5px solid firebrick;" />
     <a/>
   </div>
   `
