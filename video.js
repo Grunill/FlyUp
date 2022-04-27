@@ -46,6 +46,7 @@ const videos = [
   {id:43,title:"Blithfield Bumps",url:"dQNN5bmq-u4",image:"Blithfield-Bumps.jpg",activity:"Paramotor",order:43,year:2021,description:"22-04-2021 Aston Marina to Blithfield Reservoir. (Camera and Edit Jason Grunill and AF)"},
   {id:44,title:"Wake Me Up",url:"K-8N9eK6Hno",image:"Wake-Me-Up.jpg",activity:"Wakeboard",order:44,year:2021,description:"09-10-2021 Sheffield Wake Park. (Camera and Edit Jason Grunill)"},
   {id:45,title:"Snowdon 2022",url:"tD9V0hrTs9A",image:"Snowdon-2022.jpg",activity:"Paramotor",order:45,year:2022,description:"12-01-2022 - Black Rock Sands to Snowdon. Finally made the summit after coming so close in 2018. (Camera and Edit Jason Grunill)"},
+  {id:46,title:"First Gybes",url:"kESP2ZVyZr8",image:"First-Gybes.jpg",activity:"Wingfoil",order:46,year:2022,description:"23-04-2022 - Carsington Sailing Club with TS. (Camera and Edit Jason Grunill)"},
 ];
 
 function formatVideosHTML(value) {
